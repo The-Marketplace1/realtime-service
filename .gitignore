@@ -1,0 +1,23 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and generated output
+node_modules/
+dist/
+.test-dist/
+coverage/
+*.tsbuildinfo
+.cache/
+.local/
+
+# Logs and runtime files
+*.log
+*.pid
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
